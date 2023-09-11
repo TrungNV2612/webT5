@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+}
+.bg{
+    height: 98vh;
+    width: 100%;
+    background-image: url("./images/Rectangle2.png");
+    /* display: flex; 
+    justify-content: center;   
+    align-items: center; */
+}
+.formLogin{
+    padding: 20px;
+    background-color: white;
+    position: relative ;
+    height: 34vh;
+    width: 30vw;
+    top: 200px;
+    left: 500px;    
+    border: 2px solid black;
+    
+}
+.formLogin > img{
+    position: relative;
+    left: 25%;
+}
+.formLogin input{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    margin: 5px 0px 5px 0px;
+}
+.formLogin p{    
+    position: relative;
+    top: 5px;
+    margin: 5px 0px 5px 0px;
+    font-weight: bold;
+}
+.formLogin a{
+    position: relative;
+    top: 10px;
+    left: 475px;
+    margin: 5px 0px 15px 0px;
+    color: blue;
+}
+.formLogin button{
+    position: absolute;
+    top: 235px;
+    bottom: 80px;
+    left: 20px;
+    right: 20px;
+    margin: 5px 0px 5px 0px;
+    background-color: rgb(22, 22, 111);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#password-input{}
+#tonggle-pass{
+    position: relative;
+    background-image: url("./images/hidePass.png");
+    width: 18px;
+    height: 18px;
+    top: 7px;
+    left: 550px;
+    border: none;
+    background-size: cover ;
+    cursor: pointer;
+}
+.show-password{
+    background-image: url("./images/showPass.png")!important;
+}
